@@ -1,0 +1,47 @@
+* {
+    font-family: sans-serif;
+  }
+  
+.navbar {
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar a {
+    text-decoration: none;
+}
+.profile-image {
+    border-radius: 50%;
+}
+table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    padding: 4px;
+}
+table {
+    width: 700px;
+    margin: 8px;
+}
+.experience-head {
+    text-align: left;
+    background-color: lightblue;
+}
+.contact-form {
+    display: inline-block;
+    width: 25%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 15px 70px 15px 20px;
+}
+
+select, textarea, input {
+    width: 100%;
+}
+
+
+
+
+
